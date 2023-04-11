@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Favorite Food Webapp</title>
+    <style>
+        ul a {
+            text-decoration: none;
+            color: black;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        img {
+            width: 500px;
+        }
+
+        nav {
+            background-color:darkslategray;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-inline-start: 0px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color:darkgrey;
+        }
+        body{
+            background-color:lightgrey ;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="padding-left: 10px;"><a href="#">Index</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Top 5 Favorite Foods</h1>
+    <ul>
+        <li><a href="#biryani">Mutton Biryani</a></li>
+        <li><a href="#panipuri">Panipuri</a></li>
+        <li><a href="#corn">Crispy Corn</a></li>
+        <li><a href="#pizza">Pizza</a></li>
+        <li><a href="#noodles">Chicken Noodles</a></li>
+
+    </ul>
+    <div align="center">
+        <img id="biryani" src="muttonbiryani.jpeg" alt="">
+        <p>Mutton Biryani</p>
+        <img id="panipuri" src="panipuri.jpeg" alt="">
+        <p>Pani Puri</p>
+        <img id="corn" src="crispycorn.jpeg" alt="">
+        <p>Crispy Corn</p>
+        <img id="pizza" src="pizza.jpeg" alt="">
+        <p>Pizza</p>
+        <img id="noodles" src="chickennoodles.jpeg" alt="">
+        <p>Chicken Noodles</p>
+    </div>
+</body>
+
+</html>
